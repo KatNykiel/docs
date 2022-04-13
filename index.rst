@@ -12,7 +12,9 @@ Welcome to katnyp's documentation!
 
 Markdown test
 ==================================
-..toctree::
+
+.. toctree::
+
    test.md
 
 
