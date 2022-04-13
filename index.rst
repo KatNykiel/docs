@@ -16,7 +16,7 @@ Markdown test
 .. toctree::
 
    test.md
-   markdown/545 Lectur b3925.md
+   markdown/installation.md
 
 
 Indices and tables
