@@ -9,8 +9,10 @@ Welcome to katnyp's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-   markdown/545%20Lectur%20b3925.md
+
+..toctree::
    test.md
+   markdown/545%20Lectur%20b3925.md
 
 
 Indices and tables
