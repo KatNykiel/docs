@@ -12,7 +12,6 @@ Welcome to katnyp's documentation!
 
 ..toctree::
    test.md
-   markdown/545%20Lectur%20b3925.md
 
 
 Indices and tables
