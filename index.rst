@@ -17,6 +17,7 @@ Markdown test
 
    test.md
    markdown/installation.md
+   markdown/git_repository.md
 
 
 Indices and tables
