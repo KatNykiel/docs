@@ -11,7 +11,8 @@ Is it better to use git locally or on cluster? See if cluster is even an option
 ## Setting up a Git Repository
 If you've never used Git before, it's a tool used for version control. Instead of only saving the most recent version of each file, Git can track its history.
 
-```{attention} Why go through the hassle of Git? It's a fail safe - if testing code makes it break, or your files are wiped, Git can save the day
+```{attention} Why go through the hassle of Git?
+It's a fail safe - if testing code makes it break, or your files are wiped, Git can save the day
 ```
 
 While this tutorial will focus on individual uses of Git, it's primary appeal is as a coding collaboration tool. To learn more about why Git is useful, see the explanation provided [here](https://www.practicaldatascience.org/html/git_and_github.html). In short, here's a few relevant terms useful to know
