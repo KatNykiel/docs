@@ -15,7 +15,6 @@ Markdown test
 
 .. toctree::
 
-   test.md
    markdown/installation.md
    markdown/git_repository.md
 
