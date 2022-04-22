@@ -10,7 +10,7 @@ Welcome to katnyp's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-Markdown test
+Setting up Atom
 ==================================
 
 .. toctree::
@@ -18,6 +18,9 @@ Markdown test
    markdown/installation.md
    markdown/git_repository.md
 
+Random
+==================================
+- plotly embedded plots
 
 Indices and tables
 ==================
