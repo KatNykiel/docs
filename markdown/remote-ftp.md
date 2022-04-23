@@ -17,4 +17,7 @@ In this file, there are a few settings we need to change.
 - pass: '[[YOUR PASSOWRD]]' (we'll set up SSH keys later)
 - remote: 'home/[[YOUR USERNAME]]'
 
+```{attention} WARNING
+Add '.ftpconfig' to your .gitignore file! You should never commit your .ftpconfig file, it contains your password
+
 TODO: ssh keys
