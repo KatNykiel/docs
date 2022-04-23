@@ -1,7 +1,7 @@
 # Installation
 
 ## What is Atom?
-*Atom* is a hackable text editor created by GitHub, and can be downloaded from [https://atom.io/](https://atom.io/)
+*Atom* is a hackable text editor created by GitHub
 
 ## Why Atom?
 A dedicated code editor offers many advantages over pure command-line editors (vim, emacs) or SSH clients (MobaXterm, PuTTY)
@@ -18,7 +18,17 @@ Why specifically Atom, over other alternatives like [VS Code](https://code.visua
 
 Even if you prefer one of these options over Atom, it's a major improvement over slow, rigid tools like MobaXterm and its default text editor.
 
-# Installing Atom
-  
+# Inital setup
+
+- Download and run the installer from [https://atom.io/](https://atom.io/)
+
 ```{note} This tutorial is done on Windows using Atom 1.60.0. OS X/Linux or different Atom versions may differ slightly
 ```
+
+One of the first things to do after installing Atom would be set up your workspace.
+
+Atom uses **projects** to manage different workspaces. For example, you might have a project for [Bell](https://www.rcac.purdue.edu/compute/bell), another for [nanoHUB](https://nanohub.org/), and another for local runs.
+
+- After opening Atom, create a new project by clicking **Open a Project** on the right pane
+- Choose a folder where you want your workspace to be stored
+- For this example, we'll create a new folder called 'Gilbreth' we'll use to connect to the [Gilbreth cluster](https://www.rcac.purdue.edu/compute/gilbreth)

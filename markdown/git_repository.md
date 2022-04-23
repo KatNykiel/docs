@@ -1,14 +1,5 @@
 # Creating a git repository
 
-One of the first things to do after installing Atom would be set up your workspace.
-
-Atom uses **projects** to manage different workspaces. For example, you might have a project for [Bell](https://www.rcac.purdue.edu/compute/bell), another for [nanoHUB](https://nanohub.org/), and another for local runs.
-
-## Creating a project
-TODO: setting up Atom project from scratch (do a clean install)
-Is it better to use git locally or on cluster? See if cluster is even an option
-
-## Setting up a Git Repository
 If you've never used Git before, it's a tool used for version control. Instead of only saving the most recent version of each file, Git can track its history.
 
 ```{attention} Why go through the hassle of Git?
@@ -25,4 +16,29 @@ While this tutorial will focus on individual uses of Git, it's primary appeal is
 ```{note} If you don't already have a GitHub account, you can create one [here](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjasK_F8qL3AhVuhHIEHea9BmkQFnoECAkQAQ&url=https%3A%2F%2Fgithub.com%2Fjoin&usg=AOvVaw0H9TK-nu7JfXaoNeNMgJEk)
 ```
 
-TODO: actually setting up Atom git repo from within Atom
+## Setting up a Git Repository
+In the last step, we created a new project called 'Gilbreth,' now we'll initialize a Git repository in this directory. Press `CTRL-SHIFT-8` to open the GitHub panel.
+
+- Click 'Login' and continue
+- Copy the OAuth token to Atom to login
+- Click 'Initialize and publish on GitHub
+- Enter a repository name and set visibility (most likely private)
+
+In addition, we want to set up the Git panel, which we open using `CTRL-SHIFT-9`.
+- Enter your name and email address
+- If you intend to use this login for all repositories, click 'Use for all repositories'
+
+You should now three a panel with three sections: unstaged changes, staged changes, and commit message. This will keep track of the changes you make and allow you to push them to Git.
+
+```{note} Any changes you don't with to track on Git can be untracked by creating a file named '.gitgnore' and adding these file names (i.e. test.py or outVASP)
+```
+Create the .gitignore file by selecting the 'Gilbreth' folder in the left pane and pressing ```a```, then type '.gitignore' and add whichever files names you don't want to track
+
+We can now make an initial commit
+
+- In the Git panel, press 'Stage All' to stage your changes (creating the .gitignore file)
+- Add a Commit message in the text box below, describing the changes this commit contains
+- Click 'Create detached commit'
+- Click 'Publish' to set up a remote tracking branch
+
+Congrats! You should be able to view your repository on GitHub, and have the system in place to stage, commit, and push your changes from within Atom. 
