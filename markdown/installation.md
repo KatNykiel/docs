@@ -18,7 +18,7 @@ Why specifically Atom, over other alternatives like [VS Code](https://code.visua
 
 Even if you prefer one of these options over Atom, it's a major improvement over slow, rigid tools like MobaXterm and its default text editor.
 
-# Inital setup
+## Inital setup
 
 - Download and run the installer from [https://atom.io/](https://atom.io/)
 
