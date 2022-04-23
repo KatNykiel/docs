@@ -17,6 +17,8 @@ Setting up Atom
 
    markdown/installation.md
    markdown/git_repository.md
+   markdown/remote-ftp.md
+   
 
 Random
 ==================================
