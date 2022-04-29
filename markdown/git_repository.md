@@ -3,7 +3,7 @@
 If you've never used Git before, it's a tool used for version control. Instead of only saving the most recent version of each file, Git can track its history.
 
 ```{attention} Why go through the hassle of Git?
-It's a fail safe - if testing code makes it break, or your files are wiped, Git can save the day
+It's a fail safe - if your code breaks something, or files become corrupted, Git can save the day
 ```
 
 While this tutorial will focus on individual uses of Git, it's primary appeal is as a coding collaboration tool. To learn more about why Git is useful, see the explanation provided [here](https://www.practicaldatascience.org/html/git_and_github.html). In short, here's a few relevant terms useful to know
@@ -21,14 +21,14 @@ In the last step, we created a new project called 'Gilbreth,' now we'll initiali
 
 - Click 'Login' and continue
 - Copy the OAuth token to Atom to login
-- Click 'Initialize and publish on GitHub
+- Click 'Initialize and publish on GitHub'
 - Enter a repository name and set visibility (most likely private)
 
 In addition, we want to set up the Git panel, which we open using `CTRL-SHIFT-9`.
 - Enter your name and email address
 - If you intend to use this login for all repositories, click 'Use for all repositories'
 
-You should now three a panel with three sections: unstaged changes, staged changes, and commit message. This will keep track of the changes you make and allow you to push them to Git.
+You should now see a panel with three sections: unstaged changes, staged changes, and commit message. This will keep track of the changes you make and allow you to push them to Git.
 
 ```{note} Any changes you don't with to track on Git can be untracked by creating a file named '.gitgnore' and adding these file names (i.e. test.py or outVASP)
 ```
@@ -41,4 +41,4 @@ We can now make an initial commit
 - Click 'Create detached commit'
 - Click 'Publish' to set up a remote tracking branch
 
-Congrats! You should be able to view your repository on GitHub, and have the system in place to stage, commit, and push your changes from within Atom. 
+Congrats! You should be able to view your repository on GitHub, and have the system in place to stage, commit, and push your changes from within Atom.

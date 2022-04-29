@@ -5,11 +5,11 @@ Atom describes itself as a 'hackable' text editor because it has thousands of co
 
 Press ```CTRL + ,``` to open the Settings menu. From here, click 'Install.' This lets you query and install packages for Atom.
 
-Locate and install the 'remote-ftp' package (by icetee). After it's done installing, you can select 'Packages -> Remote FTP -> Toggle' from the menu bar. This will open a new tab in your left pane.
+Locate and install the 'remote-ftp' package (by icetee). After it's done installing, you can select 'Packages → Remote FTP → Toggle' from the menu bar. This will open a new tab in your left pane.
 
 ```{note} The left tab labeled 'project' is your local project folder - the right 'remote' tab is your remote file manager. Remote FTP will sync any remote changes locally
 ```
-To connect to the  Gilbreth cluster, we need to create an .ftpconfig file. This is done by selecting 'Packages -> Remote FTP -> Create SFTP config file'
+To connect to the  Gilbreth cluster, we need to create an .ftpconfig file. This is done by selecting 'Packages → Remote FTP → Create SFTP config file'
 
 In this file, there are a few settings we need to change.
 - host: 'gilbreth.rcac.purdue.edu'
@@ -20,5 +20,7 @@ In this file, there are a few settings we need to change.
 ```{attention}
 Add '.ftpconfig' to your .gitignore file! You should never commit your .ftpconfig file, it contains your password
 ```
-
-TODO: ssh keys
+TODO: write a more complete SSH key setup guide (Atom is a lil janky to set up)
+```{note}
+With this setup, you'll still have to use 2FA each time you connect. Following the guide [https://www.rcac.purdue.edu/knowledge/scholar/accounts/login/sshkeys](here), you can connect without 2FA
+```

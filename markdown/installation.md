@@ -30,5 +30,5 @@ One of the first things to do after installing Atom would be set up your workspa
 Atom uses **projects** to manage different workspaces. For example, you might have a project for [Bell](https://www.rcac.purdue.edu/compute/bell), another for [nanoHUB](https://nanohub.org/), and another for local runs.
 
 - After opening Atom, create a new project by clicking **Open a Project** on the right pane
-- Choose a folder where you want your workspace to be stored
+- Choose (or create) a folder where you want your workspace to be stored
 - For this example, we'll create a new folder called 'Gilbreth' we'll use to connect to the [Gilbreth cluster](https://www.rcac.purdue.edu/compute/gilbreth)
