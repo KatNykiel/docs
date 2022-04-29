@@ -21,6 +21,7 @@ Per the suggestion of some other group members, I thought I'd write up a few pag
    markdown/git_repository.md
    markdown/remote-ftp.md
    markdown/terminal.md
+   markdown/hydrogen.md
 
 
 Random

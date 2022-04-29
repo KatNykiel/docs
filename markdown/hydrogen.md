@@ -108,3 +108,5 @@ Congrats, you're now connected to the clusters! As a check, try adding the follo
 import os
 os.getcwd()
 ```
+
+You should see that you're in the cluster! 
