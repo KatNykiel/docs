@@ -30,7 +30,7 @@ Try copying the above cells into your **hydrogen.py** file, and typing ```ALT-SH
 
 This system takes a little getting used to, but it's essentially equivalent to cells in Jupyter notebooks
 
-## Running remote python files
+## Running remote Python files
 
 Running files locally is cool, but it's often desired to run Python files directly in the cluster.
 
@@ -52,8 +52,9 @@ jupyter notebook --generate-config
 
 3. In config file (~/.jupyter/jupyter_notebook_config.py), uncomment
 
+```
     #c.NotebookApp.token = ''
-
+```
 and set the string to some arbitrary phrase (i.e. 'katnyp')
 
 4. Run a Jupyter server using
@@ -71,12 +72,12 @@ You should now see a Jupyter Notebook server running in the terminal!
 
 ```python
 # it should look something like this
-http://127.0.0.1:8888/?token=...
+http://127.0.0.1:[[1234]]/?token=...
 ```
 
 This is Jupyter notebook server connected to the RCAC clusters. Cool! But we want more, we want it *within Atom*
 
-6. from Hydrogen package settings, set 'Kernel Gateways' to the following
+6. From Hydrogen package settings, set 'Kernel Gateways' to the following
 
 ```python
 [{
@@ -90,10 +91,11 @@ This is Jupyter notebook server connected to the RCAC clusters. Cool! But we wan
 
 7. To connect, we there's a few steps we need to take.
 
-```{note} Instead of using the Menu bar, we'll introduce the **command palette**. It's a convenient way to access commands within Atom without using the mouse or scrolling through menus. Press ```CTRL-SHIFT-P```
+```{note} Instead of using the Menu bar, we'll introduce the **command palette**. It's a convenient way to access commands within Atom without using the mouse or scrolling through menus.
+
 ```
 
-To connect to a remote kernel, open the command palette
+To connect to a remote kernel, open the command palette using ```CTRL-SHIFT-P```
 - type 're k' to select 'Hydrogen: Connect to Remote Kernel'
 - select Gilbreth
 - choose 'Authenticate with a token'
@@ -109,4 +111,4 @@ import os
 os.getcwd()
 ```
 
-You should see that you're in the cluster! 
+You should see that you're in the cluster!
