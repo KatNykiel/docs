@@ -9,7 +9,7 @@ Locate and install the 'remote-ftp' package (by icetee). After it's done install
 
 ```{note} The left tab labeled 'project' is your local project folder - the right 'remote' tab is your remote file manager. Remote FTP will sync any remote changes locally
 ```
-To connect to the  Gilbreth cluster, we need to create an .ftpconfig file. This is done by selecting 'Packages -> Remote FTP -> Create FTP config file'
+To connect to the  Gilbreth cluster, we need to create an .ftpconfig file. This is done by selecting 'Packages -> Remote FTP -> Create SFTP config file'
 
 In this file, there are a few settings we need to change.
 - host: 'gilbreth.rcac.purdue.edu'
@@ -17,7 +17,8 @@ In this file, there are a few settings we need to change.
 - pass: '[[YOUR PASSOWRD]]' (we'll set up SSH keys later)
 - remote: 'home/[[YOUR USERNAME]]'
 
-```{attention} WARNING
+```{attention}
 Add '.ftpconfig' to your .gitignore file! You should never commit your .ftpconfig file, it contains your password
+```
 
 TODO: ssh keys
