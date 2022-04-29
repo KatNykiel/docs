@@ -1,4 +1,4 @@
-# Terminal
+# Platformio IDE Terminal
 
 In addition to managing and editing files, it's often useful to have a command line interface directly connected to the clusters. For this, we'll use a package called **platformio-ide-terminal**
 

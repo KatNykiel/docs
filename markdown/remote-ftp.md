@@ -21,6 +21,5 @@ In this file, there are a few settings we need to change.
 Add '.ftpconfig' to your .gitignore file! You should never commit your .ftpconfig file, it contains your password
 ```
 TODO: write a more complete SSH key setup guide (Atom is a lil janky to set up)
-```{note}
-With this setup, you'll still have to use 2FA each time you connect. Following the guide [https://www.rcac.purdue.edu/knowledge/scholar/accounts/login/sshkeys](here), you can connect without 2FA
-```
+
+With this setup, you'll still have to use 2FA each time you connect. Following the guide [here](https://www.rcac.purdue.edu/knowledge/scholar/accounts/login/sshkeys), you can connect without 2FA

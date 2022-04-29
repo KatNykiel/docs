@@ -25,10 +25,9 @@ Per the suggestion of some other group members, I thought I'd write up a few pag
 
 Random
 ==================================
-- plotly embedded plots
-- useful tools
-  - pymatgen
-  - obsidian
+.. toctree::
+   markdown/plotly_api.md
+   markdown/useful_tools.md
 
 Indices and tables
 ==================

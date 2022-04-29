@@ -42,3 +42,6 @@ We can now make an initial commit
 - Click 'Publish' to set up a remote tracking branch
 
 Congrats! You should be able to view your repository on GitHub, and have the system in place to stage, commit, and push your changes from within Atom.
+
+```{note} Atom has some pretty cool integrations with Git. See which changes were made between commits, merge branch conflicts, easily switch between branches, etc.
+```
