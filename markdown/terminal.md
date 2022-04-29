@@ -2,7 +2,7 @@
 
 In addition to managing and editing files, it's often useful to have a command line interface directly connected to the clusters. For this, we'll use a package called **platformio-ide-terminal**
 
-Similarly to Remote FTP, search for this package in settings and installer
+Similarly to Remote FTP, search for this package in settings and install
 
 ```{note}
 Ensure that you are installing the correct *terminal* package, not the other platformio-ide tools (though those can be useful as well)
