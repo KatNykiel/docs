@@ -23,5 +23,5 @@ If you want to files in the cluster directly from the Atom editor, change your S
 Where [[1234]] is some arbitrary 4-digit number you'll use as a port
 
 ```{note}
-Within these same settings, you can assign some shortcuts to phrases you type a lot (squeue ..., cd /scratch..., etc.). We'll discuss how to assign these shortcuts to hotkeys in the 'keybindings' section later on
+Within these same settings, you can assign some shortcuts to phrases you type a lot (squeue ..., cd /scratch..., etc.). You can assign these shortcuts to hotkeys using the 'keybindings' section under settings
 ```

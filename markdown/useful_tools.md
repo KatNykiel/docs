@@ -10,8 +10,8 @@ This area is still under development. But here's some tools I've stumbled across
 It seems to be the *de facto* Python package for computational materials science. Some of our group uses it sparsely, but there's far more potential than we're taking advantage of.
 
 ## Obsidian
-[Obsidian](https://obsidian.md/) is, basically, just a way to edit Markdown files; however, the goal is for it to become a 'second brain.' It's extremely useful as note-taking software, especially as a [Zettelkasten](https://zettelkasten.de/posts/overview/) tool. I've been using Notion for years, and while I love it, there's a few big drawbacks
+[Obsidian](https://obsidian.md/) is, basically, just a way to edit Markdown files. It's extremely useful as note-taking software, especially as a [Zettelkasten](https://zettelkasten.de/posts/overview/) tool. I've been using Notion for years, and while I love it, there's a few big drawbacks
 - You don't own your data - Notion stores your files in the cloud, which means you don't have any local backups
 - Notion is restrictive. It's great to be within the Notion system, but it doesn't translate well to presentations / building websites / coding
 - You're trusting the Notion won't sell your data, lose your files, or charge premiums to continue using Notion
-Local markdown files managed with Obsidian are essentially the same system, albeit without some of the luxuries of Notion. I still think it's worth it.
+Local markdown files managed with Obsidian are essentially the same system as Notion, albeit without some of its luxuries. Despite this, it's still absolutely worth using Obsidian. 
