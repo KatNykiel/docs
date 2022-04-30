@@ -1,4 +1,4 @@
-# Embedding Interactive Plotly graphs in PowerPoint
+# Embedding interactive Plotly graphs
 
 1. Sign up for a Plotly account
 

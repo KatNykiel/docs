@@ -14,4 +14,5 @@ It seems to be the *de facto* Python package for computational materials science
 - You don't own your data - Notion stores your files in the cloud, which means you don't have any local backups
 - Notion is restrictive. It's great to be within the Notion system, but it doesn't translate well to presentations / building websites / coding
 - You're trusting that Notion won't sell your data, lose your files, or charge premiums to continue using Notion
+
 Local markdown files managed with Obsidian are essentially the same system as Notion, albeit without some of its luxuries. Despite this, it's still absolutely worth using Obsidian.
