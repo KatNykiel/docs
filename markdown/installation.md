@@ -18,8 +18,8 @@ Why specifically Atom, over other alternatives like [VS Code](https://code.visua
 
 Even if you prefer one of these options over Atom, it's a major improvement over slow, rigid tools like MobaXterm and its default text editor.
 
-```{disclaimer}
-I've only learned about many of these topics in the past few months, and I'm by no means an expert. I just wanted to make a tutorial to document a system for remote access and editing in the clusters. If I find out that something implemented here isn't best practices, I'll change it. If I find there are vulnerabilities, I'll update it and notify anyone who's used this tutorial. 
+```{attention}
+I've only learned about many of these topics in the past few months, and I'm by no means an expert. I just wanted to make a tutorial to document a system for remote access and editing in the clusters. If I find out that something implemented here isn't best practices, I'll change it. If I find there are vulnerabilities, I'll update it and notify anyone who's used this tutorial.
 ```
 
 ## Inital setup

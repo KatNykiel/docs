@@ -5,7 +5,6 @@
 
 Welcome to katnyp's documentation!
 ==================================
-
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -13,7 +12,7 @@ Welcome to katnyp's documentation!
 Setting up Atom
 ==================================
 
-Per the suggestion of some other group members, I thought I'd write up a few pages describing how to set up Atom to connect with RCAC clusters.
+Per the suggestion of some other group members, I thought I'd write up a few pages in RTD/Sphinx describing how to set up Atom to connect with RCAC clusters.
 
 .. toctree::
 
@@ -22,6 +21,7 @@ Per the suggestion of some other group members, I thought I'd write up a few pag
    markdown/remote-ftp.md
    markdown/terminal.md
    markdown/hydrogen.md
+   markdown/other_packages.md
 
 
 Random
@@ -29,10 +29,3 @@ Random
 .. toctree::
    markdown/plotly_api.md
    markdown/useful_tools.md
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
